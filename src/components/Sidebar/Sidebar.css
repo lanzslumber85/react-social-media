@@ -1,0 +1,42 @@
+.Sidebar {
+    height: 100%;
+    width: 100%;
+    background-color: #13406b;
+}
+
+.SidebarList {
+    height: auto;
+    padding: 0;
+    width: 100%;
+}
+
+.SidebarList {
+    color: white;
+    padding: 10px;
+    margin: 0;
+}
+
+.SidebarList .nav-link {
+    width: 100%;
+    height: 50px;
+    list-style-type: none;
+    margin: 0%;
+    display: flex;
+    flex-direction: row;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+        "Lucida Sans", Arial, sans-serif;
+    font-size: 14px;
+}
+
+.SidebarList .nav-link:hover {
+    cursor: pointer;
+    background-color: #1e90ff;
+}
+
+.SidebarList #active,
+#active2 {
+    background-color: #1e90ff;
+}
